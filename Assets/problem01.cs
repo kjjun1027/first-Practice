@@ -1,9 +1,13 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
+
+
 public class problem01 : MonoBehaviour
 {
+
     private void Awake()
     {
-
+        
         /*문제 1
         int a = 0;
         for(int i = 1; i <= 10; i++)
